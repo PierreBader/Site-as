@@ -8,7 +8,9 @@ $(window).load(function() {
     smoothScrollForInternalLinks();
 	
 	// execute above function
-	initPhotoSwipeFromDOM('#gallery');
+	initPhotoSwipeFromDOM('#gallery-web');
+	initPhotoSwipeFromDOM('#gallery-rewriting');
+	initPhotoSwipeFromDOM('#gallery-print');
 
 });
 

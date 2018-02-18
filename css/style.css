@@ -58,7 +58,7 @@ h2 {
 #menuMqDetector {float:left;}
 
 .full_view {
-    min-height: 80vh;
+    min-height: 70vh;
     padding-top: 1vh;
 }
 
@@ -72,7 +72,21 @@ h2 {
     text-align: right;
 }
 
-#gallery {
+.apropos-part {
+    text-align: justify;
+    background-color: white;
+    margin: 0.5em 0;
+    padding: 1em;
+    min-height: 20vh;
+	font-size: 150%;
+}
+
+.keywords {
+	column-count: 2;
+    list-style: none;
+}
+
+.my-gallery  {
    /* Prevent vertical gaps */
    line-height: 0;
    
@@ -82,23 +96,27 @@ h2 {
    -moz-column-gap:      2em;
    column-count:         3;
    column-gap:           2em;
+
 }
 
-#gallery figure {
+
+.my-gallery  figure {
 	margin:0;
 	padding:0;
+    margin-bottom: 2em;
 }
 
-#gallery figcaption {
-    padding: 1em 0em;
+.my-gallery  figcaption {
+    padding: 0;
     position: relative;
-    top: -2em;
+    top: -1em;
     left: 0.5em;
     color: white;
-    text-shadow: 0 0 1px black,0 0 2px black, 0 0 3px black, 0 0 4px black, 0 0 5px black, 0 0 6px black, 0 0 7px black, 0 0 8px black, 0 0 20px black;
+    text-shadow: 0 0 1px black, 0 0 2px black, 0 0 3px black, 0 0 4px black, 0 0 5px black, 0 0 6px black, 0 0 7px black, 0 0 8px black, 0 0 20px black;
 }
 
-#gallery img {
+
+.my-gallery  img {
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
@@ -106,14 +124,14 @@ h2 {
 }
 
 @media (max-width: 900px) {
-  #gallery {
+  .my-gallery {
   -moz-column-count:    2;
   -webkit-column-count: 2;
   column-count:         2;
   }
 }
 @media (max-width: 600px) {
-  #gallery {
+  .my-gallery {
   -moz-column-count:    1;
   -webkit-column-count: 1;
   column-count:         1;
