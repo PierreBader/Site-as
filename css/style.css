@@ -47,6 +47,7 @@ h2 {
 	text-decoration:none;
 }
 
+
 .nav_links li {
     margin-top: 1em;
 }
@@ -65,6 +66,7 @@ h2 {
 #accueil {
 	height: 100vh;
 	overflow: hidden;
+	/*background-image: url(/images/subtle_dots.png);*/
 }
 
 #texte_accueil {
@@ -79,6 +81,21 @@ h2 {
     padding: 1em;
     min-height: 20vh;
 	font-size: 150%;
+}
+
+#prestations {
+	text-align: justify;
+}
+
+#prestations h3 {
+	font-variant: small-caps;
+    font-size: 130%;
+}
+
+#prestations .inline_title {
+    font-variant: small-caps;
+    font-size: 120%;
+	color: #ea0b25;
 }
 
 .keywords {
@@ -145,6 +162,24 @@ h2 {
 		display: none;
 	}
     #menuMqDetector {float:left;}
+	
+	.nav_links {
+		display: flex;
+		font-size: 130%;
+	}
+	
+	.nav_links li {
+		margin-top: 0.5em;
+		flex: 1;
+		text-align: center;
+	}
+	
+	#texte_accueil .titre {
+		font-size: 400%;
+	}
+	#texte_accueil .desc {
+		font-size: 200%;
+	}
 }
 
 /* Tablet Portrait size to Base 996px */
@@ -152,6 +187,24 @@ h2 {
     #menuMqDetector {float:left;}
 	#nav {
 		font-size:0.8em;
+	}
+	
+	.nav_links {
+		display: flex;
+		font-size: 130%;
+	}
+	
+	.nav_links li {
+		margin-top: 0.5em;
+		flex: 1;
+		text-align: center;
+	}
+	
+	#texte_accueil .titre {
+		font-size: 250%;
+	}
+	#texte_accueil .desc {
+		font-size: 130%;
 	}
 }
 
@@ -190,5 +243,12 @@ h2 {
 		
 	h2 {
 		font-size:2em;
+	}
+	
+	#texte_accueil .titre {
+		font-size: 200%;
+	}
+	#texte_accueil .desc {
+		font-size: 120%;
 	}
 }
