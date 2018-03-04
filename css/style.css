@@ -1,6 +1,5 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	background:#ebebeb;
 	margin: 0;
 }
 
@@ -58,15 +57,40 @@ h2 {
 
 #menuMqDetector {float:left;}
 
-.full_view {
-    min-height: 70vh;
-    padding-top: 1vh;
+.site-section {
+	padding-top: 1em;
+	padding-bottom: 2em;
 }
 
 #accueil {
 	height: 100vh;
 	overflow: hidden;
-	/*background-image: url(/images/subtle_dots.png);*/
+	background-image: url(/images/subtle_dots.png);
+}
+
+
+#apropos {	
+	background-image: url(/images/squairy_light.png);
+}
+
+#prestations {
+	background-image: url(/images/dust_scratches.png);
+}
+
+#tarifs {
+	background: #e2e2e2;
+}
+
+#pressbook {
+	background: whitesmoke;
+}
+
+#contact {
+	background-image: url(/images/escheresque.png);
+}
+
+#mentionslegales {
+	background-image: url(/images/grey.png);
 }
 
 #texte_accueil {
@@ -76,18 +100,14 @@ h2 {
 
 .apropos-part {
     text-align: justify;
-    background-color: white;
-    margin: 0.5em 0;
-    padding: 1em;
-    min-height: 20vh;
-	font-size: 150%;
+    padding-bottom: 2em;
 }
 
 #prestations {
 	text-align: justify;
 }
 
-#prestations h3 {
+h3 {
 	font-variant: small-caps;
     font-size: 130%;
 }
@@ -98,61 +118,28 @@ h2 {
 	color: #ea0b25;
 }
 
-.keywords {
-	column-count: 2;
+.keywords ul{
     list-style: none;
 }
 
 .my-gallery  {
    /* Prevent vertical gaps */
    line-height: 0;
-   
-   -webkit-column-count: 3;
-   -webkit-column-gap:   2em;
-   -moz-column-count:    3;
-   -moz-column-gap:      2em;
-   column-count:         3;
-   column-gap:           2em;
-
 }
 
 
 .my-gallery  figure {
-	margin:0;
-	padding:0;
-    margin-bottom: 2em;
+	margin: auto;
+	margin-bottom: 2em;
+	display: inline-block;
+	min-height: 253px;
 }
-
-.my-gallery  figcaption {
-    padding: 0;
-    position: relative;
-    top: -1em;
-    left: 0.5em;
-    color: white;
-    text-shadow: 0 0 1px black, 0 0 2px black, 0 0 3px black, 0 0 4px black, 0 0 5px black, 0 0 6px black, 0 0 7px black, 0 0 8px black, 0 0 20px black;
-}
-
 
 .my-gallery  img {
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
-}
-
-@media (max-width: 900px) {
-  .my-gallery {
-  -moz-column-count:    2;
-  -webkit-column-count: 2;
-  column-count:         2;
-  }
-}
-@media (max-width: 600px) {
-  .my-gallery {
-  -moz-column-count:    1;
-  -webkit-column-count: 1;
-  column-count:         1;
-  }
 }
 
 

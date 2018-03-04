@@ -30,7 +30,7 @@ function menuHeight() {
     if ($("#menuMqDetector").css("float") === "left") {
         return $("#nav").height();
     } else {
-        return $(".slicknav_menu").height();
+        return 48;
     }
 }
 
@@ -67,18 +67,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
                 h: parseInt(size[1], 10)
             };
 
-
-
-            if(figureEl.children.length > 1) {
-                // <figcaption> content
-                item.title = figureEl.children[1].innerHTML; 
-            }
-
-            if(linkEl.children.length > 0) {
-                // <img> thumbnail element, retrieving thumbnail url
-                item.msrc = linkEl.children[0].getAttribute('src');
-            } 
-
+            item.title = linkEl.getAttribute('title');          
+            item.msrc = linkEl.getAttribute('lowres');    
             item.el = figureEl; // save link to element for getThumbBoundsFn
             items.push(item);
         }
@@ -131,7 +121,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
         if(index >= 0) {
             // open PhotoSwipe if valid index found
-            openPhotoSwipe( index, clickedGallery, true );
+            openPhotoSwipe( index, clickedGallery );
         }
         return false;
     };
@@ -215,6 +205,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
         if(disableAnimation) {
             options.showAnimationDuration = 0;
+            options.hideAnimationDuration = 0;
         }
 
         // Pass data to PhotoSwipe and initialize it
