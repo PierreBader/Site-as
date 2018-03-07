@@ -43,12 +43,12 @@ nav img {
 	width: 70px;
 }
 
-nav a {
+a {
 	color:#333333;
 	text-decoration:none;
 }
 
-nav a:hover {
+a:hover {
 	color: #C92421;
 }
 
