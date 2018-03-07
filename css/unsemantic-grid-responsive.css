@@ -87,16 +87,16 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .mobile-grid-5, .mobile-grid-10, .mobile-grid-15, .mobile-grid-20, .mobile-grid-25, .mobile-grid-30, .mobile-grid-35, .mobile-grid-40, .mobile-grid-45, .mobile-grid-50, .mobile-grid-55, .mobile-grid-60, .mobile-grid-65, .mobile-grid-70, .mobile-grid-75, .mobile-grid-80, .mobile-grid-85, .mobile-grid-90, .mobile-grid-95, .mobile-grid-100, .mobile-grid-33, .mobile-grid-66, .grid-5, .grid-10, .grid-15, .grid-20, .grid-25, .grid-30, .grid-35, .grid-40, .grid-45, .grid-50, .grid-55, .grid-60, .grid-65, .grid-70, .grid-75, .grid-80, .grid-85, .grid-90, .grid-95, .grid-100, .grid-33, .grid-66 {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   /* <IE7> */
   *
   padding-left: 0;
@@ -106,8 +106,8 @@
 }
 .mobile-grid-5 > *, .mobile-grid-10 > *, .mobile-grid-15 > *, .mobile-grid-20 > *, .mobile-grid-25 > *, .mobile-grid-30 > *, .mobile-grid-35 > *, .mobile-grid-40 > *, .mobile-grid-45 > *, .mobile-grid-50 > *, .mobile-grid-55 > *, .mobile-grid-60 > *, .mobile-grid-65 > *, .mobile-grid-70 > *, .mobile-grid-75 > *, .mobile-grid-80 > *, .mobile-grid-85 > *, .mobile-grid-90 > *, .mobile-grid-95 > *, .mobile-grid-100 > *, .mobile-grid-33 > *, .mobile-grid-66 > *, .grid-5 > *, .grid-10 > *, .grid-15 > *, .grid-20 > *, .grid-25 > *, .grid-30 > *, .grid-35 > *, .grid-40 > *, .grid-45 > *, .grid-50 > *, .grid-55 > *, .grid-60 > *, .grid-65 > *, .grid-70 > *, .grid-75 > *, .grid-80 > *, .grid-85 > *, .grid-90 > *, .grid-95 > *, .grid-100 > *, .grid-33 > *, .grid-66 > * {
   /* <IE7> */
-  *margin-left: expression((!this.className.match(/grid-[1-9]/) && this.currentStyle.display === 'block' && this.currentStyle.width === 'auto') && '10px');
-  *margin-right: expression((!this.className.match(/grid-[1-9]/) && this.currentStyle.display === 'block' && this.currentStyle.width === 'auto') && '10px');
+  *margin-left: expression((!this.className.match(/grid-[1-9]/) && this.currentStyle.display === 'block' && this.currentStyle.width === 'auto') && '20px');
+  *margin-right: expression((!this.className.match(/grid-[1-9]/) && this.currentStyle.display === 'block' && this.currentStyle.width === 'auto') && '20px');
   /* </IE7> */
 }
 
@@ -118,8 +118,8 @@
 
 .grid-offset {
   clear: both;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 @media (max-width: 767px) {
@@ -1049,7 +1049,8 @@
     float: left;
     width: 50%;
     /* <IE7> */
-    *width: expression(Math.floor(0.5 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + 'px');
+    *
+    width: expression(Math.floor(0.5 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + 'px');
     /* </IE7> */
   }
 

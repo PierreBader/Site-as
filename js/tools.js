@@ -1,6 +1,6 @@
 $(window).load(function() {
 
-    $('#nav').slicknav({
+    $('nav').slicknav({
         label: '',
         closeOnClick: true
     });
