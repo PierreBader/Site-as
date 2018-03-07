@@ -28,7 +28,7 @@ function smoothScrollForInternalLinks() {
 
 function menuHeight() {	
     if ($("#menuMqDetector").css("float") === "left") {
-        return $("#nav").height();
+        return $("#navSection").height();
     } else {
         return 48;
     }
