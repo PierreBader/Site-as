@@ -49,7 +49,7 @@ a {
 }
 
 a:hover {
-	color: #C92421;
+	color: #db3244;
 }
 
 nav ul {
@@ -125,7 +125,7 @@ h3 {
 
 #prestations .inline_title {
     text-transform: uppercase;
-    color: #c9242a;
+    color: #db3244;
 }
 
 .keywords ul{
@@ -172,6 +172,13 @@ h3 {
 	#texte_accueil .desc {
 		font-size: 200%;
 	}
+	
+	#keywords {
+		width: 100%;
+		max-width: 560px;
+		position: relative;
+		top: -2em;
+	}
 }
 
 /* Tablet Portrait size to Base 996px */
@@ -204,7 +211,16 @@ h3 {
 	}
 	#texte_accueil .desc {
 		font-size: 3.216vw;
-	}	
+	}		
+	#keywords {
+		width: 100%;
+		max-width: 560px;
+		position: relative;
+		margin: calc( 9em - 9vw ) 0;
+	}
+		.apropos-part {
+		padding-bottom: 1.2em;
+	}
 }
 
 /* All Mobile Sizes */
@@ -218,7 +234,7 @@ h3 {
 		z-index:1000;
 	}
 
-	.slicknav_menu a {
+	.slicknav_nav a {
 		font-size: 170%;
 		margin-left: 1em;
 		text-align: left;
@@ -290,7 +306,11 @@ h3 {
 	}
 	#texte_accueil .desc {
 		font-size: 3.216vw;
-	}	
+	}		
+	#keywords {
+		width: 80%;
+		padding: 0px 10vw 1em 10vw;
+	}
 
 }
 
