@@ -261,6 +261,10 @@ h3 {
 		padding-left: 5px;		
 	}
 	
+	#fleur {
+		width: 60vw;
+	}
+	
 	.js #nav{
 		text-align:center;
 	}
@@ -284,14 +288,14 @@ h3 {
 	}
 					
 	#accueil {
-		max-height: 130vw;
+		max-height: 180vw;
 		padding-top: 2em;
 	}
 	
 	#texte_accueil {
 		text-align: right;
 		position: absolute;
-		top: 60vw;
+		top: 80vw;
 		left: 0;
 		right: 20px;
 	}
