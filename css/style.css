@@ -262,7 +262,9 @@ h3 {
 	}
 	
 	#fleur {
-		width: 60vw;
+		width: 70vw;
+		padding-left:  0;
+		padding-top: 2em;
 	}
 	
 	.js #nav{
@@ -289,7 +291,6 @@ h3 {
 					
 	#accueil {
 		max-height: 180vw;
-		padding-top: 2em;
 	}
 	
 	#texte_accueil {
