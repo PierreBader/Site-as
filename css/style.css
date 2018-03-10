@@ -128,8 +128,11 @@ h3 {
     color: #db3244;
 }
 
-.keywords ul{
-    list-style: none;
+.keywords {
+	text-align: center;
+}
+.keywords img {
+    max-height: 12em;
 }
 
 .my-gallery  {
@@ -172,13 +175,6 @@ h3 {
 	#texte_accueil .desc {
 		font-size: 200%;
 	}
-	
-	#keywords {
-		width: 100%;
-		max-width: 560px;
-		position: relative;
-		top: -2em;
-	}
 }
 
 /* Tablet Portrait size to Base 996px */
@@ -212,13 +208,14 @@ h3 {
 	#texte_accueil .desc {
 		font-size: 3.216vw;
 	}		
-	#keywords {
-		width: 100%;
-		max-width: 560px;
+	
+	.keywords img {
+		max-width: 100%;
 		position: relative;
-		margin: calc( 9em - 9vw ) 0;
+		margin: calc( 9em - 14vw ) 0;
 	}
-		.apropos-part {
+		
+	.apropos-part {
 		padding-bottom: 1.2em;
 	}
 }
@@ -307,9 +304,10 @@ h3 {
 	#texte_accueil .desc {
 		font-size: 3.216vw;
 	}		
-	#keywords {
-		width: 80%;
+	.keywords img {
+		max-width: 80%;
 		padding: 0px 10vw 1em 10vw;
+		max-height: 12em;
 	}
 
 }
