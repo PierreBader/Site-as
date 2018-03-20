@@ -805,8 +805,6 @@ var publicMethods = {
 	},
 
 	init: function() {
-		console.log("init()");
-
 		if(_isOpen || _isDestroying) {
 			return;
 		}
@@ -1188,7 +1186,6 @@ var publicMethods = {
 
 
 	updateSize: function(force) {
-		console.log("updateSize");
 		if(!_isFixedPosition && _options.modal) {
 			var windowScrollY = framework.getScrollY();
 			if(_currentWindowScrollY !== windowScrollY) {

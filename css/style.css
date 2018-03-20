@@ -4,22 +4,6 @@ body {
 	text-align: justify;
 }
 
-.align-right {
-	text-align:right;
-}
-
-.align-center {
-	margin: auto;
-}
-
-.bold {
-	font-weight:700;
-}
-
-.relative {
-	position:relative;
-}
-
 h2 {
 	text-transform:uppercase;
 	font-weight:800;
@@ -143,7 +127,6 @@ h3 {
    line-height: 0;
 }
 
-
 .my-gallery  figure {
 	margin: auto;
 	margin-bottom: 2.5em;
@@ -151,12 +134,10 @@ h3 {
 }
 
 .my-gallery  img {
-  /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
 }
-
 
 /* Desktop */
 @media only screen and (min-width: 768px) {
@@ -261,29 +242,7 @@ h3 {
 		padding-left:  0;
 		padding-top: 2em;
 	}
-	
-	.js #nav{
-		text-align:center;
-	}
-
-	#nav {
-		position:relative;
-		padding-top:3.375em;
-	}
-    
-    .no-js #nav {
-        padding-top:1em;
-    }
-	
-	#nav img {
-		display:block;
-		margin:0 auto;
-	}
-	
-	#main {
-		padding:0;
-	}
-					
+						
 	#accueil {
 		max-height: 180vw;
 	}
@@ -352,5 +311,3 @@ h3.with_icon:before {
 .icon_address:before {
 	background-image: url('/images/address.svg');
 }
-
-
