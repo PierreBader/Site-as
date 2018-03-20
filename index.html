@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr" vocab="http://schema.org/">
 
 <head>
     <title>Anne Schurrer : rédaction, relecture, conseil</title>
+    <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
     <meta name="description" content="Rédactrice tout terrain, à l'aise sur tous les sujets, je mets en forme ou reformule vos textes pour optimiser la portée de votre message."/>
@@ -18,16 +19,6 @@
     <meta name="Expires" content="never">
     <meta name="rating" content="general">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Anne Schurrer : rédaction, relecture, conseil" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://www.anne-schurrer.com" />
-    <meta property="og:image" content="http://www.anne-schurrer.com/android-chrome-192x192.png" />
-    <meta property="og:locale" content="fr_FR" />
-    <meta property="og:description" content="Rédactrice tout terrain, à l'aise sur tous les sujets, je mets en forme ou reformule vos textes pour optimiser la portée de votre message." />
-    <meta property="og:site_name" content="Anne Schurrer" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="192" />
-    <meta property="og:image:height" content="192" />
 	
 	<!-- Favicons : https://realfavicongenerator.net/ -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -50,35 +41,41 @@
 	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="css/unsemantic-grid-responsive.css" media="screen" rel="stylesheet" type="text/css" />
 	
-    <script type="text/javascript" src="js/tools.js"></script>
-	
-	
-	
+    <script async type="text/javascript" src="js/tools.js"></script>
 	
 	<!-- Image gallery : photoswipe.com -->
-	<!-- Core CSS file -->
 	<link rel="stylesheet" href="/css/photoswipe.css"> 
-
-	<!-- Skin CSS file (styling of UI - buttons, caption, etc.)
-		 In the folder of skin CSS file there are also:
-		 - .png and .svg icons sprite, 
-		 - preloader.gif (for browsers that do not support CSS animations) -->
 	<link rel="stylesheet" href="/css/photoswipe-skin/default-skin.css"> 
-
-	<!-- Core JS file -->
-	<script src="/js/photoswipe.js"></script> 
-
-	<!-- UI JS file -->
-	<script src="/js/photoswipe-ui-default.min.js"></script> 
+	<script async src="/js/photoswipe.min.js"></script>
+	<script async src="/js/photoswipe-ui-default.min.js"></script>
 
 </head>
-<body>
 
+<body typeof="WebSite">
+    <meta property="url" href="http://www.anne-schurrer.com/"/>
+
+	<meta property="headline" content="Anne Schurrer : rédaction, relecture, conseil" />
+	<meta property="datePublished" content="2018-03-20T15:04:00Z" />
+	<meta property="dateModified" content="2018-03-20T15:04:00Z" />
+	<meta property="inLanguage" content="fr" />
+	<meta property="keywords" content="relecture,redaction,redacteur,redactrice,alsace,colmar,strasbourg,mulhouse" />
+	<meta property="description" content="Rédactrice tout terrain, à l'aise sur tous les sujets, je mets en forme ou reformule vos textes pour optimiser la portée de votre message." />
+
+	<div property="author" typeof="Person">
+		<meta property="name" content="Anne Schurrer" />
+	</div>
+
+	<div property="creator" typeof="Person">
+		<meta property="name" content="MorF" />
+	</div>		
+
+	<meta property="thumbnailUrl" content="http://www.anne-schurrer.com/images/icon-250.png" />
+		
 <section id="navSection">
 	<div class="hide-on-mobile grid-container">
 		<nav>
 			<ul id="menu">
-				<li><a href="#accueil" title="Revenir à l'accueil"><img src="/images/icon-250.png"></a></li>
+				<li><a href="#accueil" title="Revenir à l'accueil"><img src="/images/icon-75.png"></a></li>
 				<li><a href="#apropos" title="À propos d'Anne Schurrer">À propos</a></li>
 				<li><a href="#prestations" title="Ce qu'elle vous propose">Prestations</a></li>
 				<li><a href="#tarifs" title="Ses tarifs">Tarifs</a></li>
@@ -182,191 +179,191 @@
 		<h2 class="grid-100">Réalisations</h2>
 
 		<h3 class="grid-100">Print</h3>
-		<div id="gallery-print" class="my-gallery grid-100 grid-parent" itemscope itemtype="http://schema.org/ImageGallery">
+		<div id="gallery-print" class="my-gallery grid-100 grid-parent" property="workExample" typeof="ImageGallery">
 			
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/dsi.jpg" itemprop="contentUrl" data-size="1240x1753"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/dsi.jpg" property="contentUrl" data-size="1240x1753"
 					lowres="/images/realisations/dsi_lowres.jpg"
 					title="Direction des systèmes d’information - Office des postes et télécommunications, Nouvelle Calédonie">
-					<img src="/images/realisations/dsi_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/dsi_thumb.jpg" property="thumbnail" typeof="ImageObject" typeof="ImageObject"/>
 				</a>
 			</figure>
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/home_organising.jpg" itemprop="contentUrl" data-size="2480x1753"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/home_organising.jpg" property="contentUrl" data-size="2480x1753"
 					lowres="/images/realisations/home_organising_lowres.jpg"
 					title="Céline Portal - home organizer - Mulhouse">
-					<img src="/images/realisations/home_organising_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/home_organising_thumb.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/btf.jpg" itemprop="contentUrl" data-size="2000x1500"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/btf.jpg" property="contentUrl" data-size="2000x1500"
 					lowres="/images/realisations/btf_lowres.jpg"
 					title="Bourse territoriale de formation - Nouvelle Calédonie">
-					<img src="/images/realisations/btf_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/btf_thumb.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/wiwowas.jpg" itemprop="contentUrl" data-size="2363x3390"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/wiwowas.jpg" property="contentUrl" data-size="2363x3390"
 					lowres="/images/realisations/wiwowas_lowres.jpg"
 					title="Wiwowas - le magazine des sorties en Alsace">
-					<img src="/images/realisations/wiwowas_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/wiwowas_thumb.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 			
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/agglo_couv.jpg" itemprop="contentUrl" data-size="1241x1590"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/agglo_couv.jpg" property="contentUrl" data-size="1241x1590"
 					lowres="/images/realisations/agglo_couv_lowres.jpg"
 					title="Ambitions agglo - le magazine de Mulhouse Alsace Agglomération (1/5)">
-					<img src="/images/realisations/agglo_couv_thumb.jpg" itemprop="thumbnail" />
+					<img src="/images/realisations/agglo_couv_thumb.jpg" property="thumbnail" typeof="ImageObject" />
 				</a>
 			</figure>				
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" style="display:none;">
-				<a href="/images/realisations/agglo_p2.jpg" itemprop="contentUrl" data-size="1241x1602"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject" style="display:none;">
+				<a href="/images/realisations/agglo_p2.jpg" property="contentUrl" data-size="1241x1602"
 					lowres="/images/realisations/agglo_p2_lowres.jpg"
 					title="Ambitions agglo - le magazine de Mulhouse Alsace Agglomération (2/5)">
-					<img src="/images/realisations/agglo_p2_lowres.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/agglo_p2_lowres.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>	
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" style="display:none;">
-				<a href="/images/realisations/agglo_p3.jpg" itemprop="contentUrl" data-size="1241x1591"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject" style="display:none;">
+				<a href="/images/realisations/agglo_p3.jpg" property="contentUrl" data-size="1241x1591"
 					lowres="/images/realisations/agglo_p3_lowres.jpg"
 					title="Ambitions agglo - le magazine de Mulhouse Alsace Agglomération (3/5)">
-					<img src="/images/realisations/agglo_p3_lowres.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/agglo_p3_lowres.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>	
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" style="display:none;">
-				<a href="/images/realisations/agglo_p4.jpg" itemprop="contentUrl" data-size="1241x1605"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject" style="display:none;">
+				<a href="/images/realisations/agglo_p4.jpg" property="contentUrl" data-size="1241x1605"
 					lowres="/images/realisations/agglo_p4_lowres.jpg"
 					title="Ambitions agglo - le magazine de Mulhouse Alsace Agglomération (4/5)">
-					<img src="/images/realisations/agglo_p4_lowres.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/agglo_p4_lowres.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>	
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" style="display:none;">
-				<a href="/images/realisations/agglo_p5.jpg" itemprop="contentUrl" data-size="1241x1644" t
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject" style="display:none;">
+				<a href="/images/realisations/agglo_p5.jpg" property="contentUrl" data-size="1241x1644" t
 					lowres="/images/realisations/agglo_p5_lowres.jpg"
 					title="Ambitions agglo - le magazine de Mulhouse Alsace Agglomération (5/5)">
-					<img src="/images/realisations/agglo_p5_lowres.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/agglo_p5_lowres.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>		
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/husson.jpg" itemprop="contentUrl" data-size="1241x1754"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/husson.jpg" property="contentUrl" data-size="1241x1754"
 					lowres="/images/realisations/husson_lowres.jpg"
 					title="Géraldine Husson - portrait d’artiste - Magazine Cit’in">
-					<img src="/images/realisations/husson_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/husson_thumb.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/lezards.jpg" itemprop="contentUrl" data-size="2286x1743"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/lezards.jpg" property="contentUrl" data-size="2286x1743"
 					lowres="/images/realisations/lezards_lowres.jpg"
 					title="Festival Lez’arts scéniques - Sélestat - relecture livret">
-					<img src="/images/realisations/lezards_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/lezards_thumb.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/fraenkel.jpg" itemprop="contentUrl" data-size="1240x1753"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/fraenkel.jpg" property="contentUrl" data-size="1240x1753"
 					lowres="/images/realisations/fraenkel_lowres.jpg"
 					title="Pierre Fraenkel - portrait d’artistes - Magazine Cit’in">
-					<img src="/images/realisations/fraenkel_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/fraenkel_thumb.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/dumoulin.jpg" itemprop="contentUrl" data-size="2499x1666"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/dumoulin.jpg" property="contentUrl" data-size="2499x1666"
 					lowres="/images/realisations/dumoulin_lowres.jpg"
 					title="Christophe Dumoulin - photographe - Bergheim - Wiwowas">
-					<img src="/images/realisations/dumoulin_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/dumoulin_thumb.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/belle_lurette.jpg" itemprop="contentUrl" data-size="1464x1131"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/belle_lurette.jpg" property="contentUrl" data-size="1464x1131"
 					lowres="/images/realisations/belle_lurette_lowres.jpg"
 					title="Belle Lurette - portrait d’entrepreneur - Journal L’Alsace">
-					<img src="/images/realisations/belle_lurette_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/belle_lurette_thumb.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/sulzbad.jpg" itemprop="contentUrl" data-size="2598x3307"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/sulzbad.jpg" property="contentUrl" data-size="2598x3307"
 					lowres="/images/realisations/sulzbad_lowres.jpg"
 					title="Les Bains de Sulzbad, Soultz-les-Bains - Wiwowas">
-					<img src="/images/realisations/sulzbad_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/sulzbad_thumb.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/livre.jpg" itemprop="contentUrl" data-size="2362x3389"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/livre.jpg" property="contentUrl" data-size="2362x3389"
 					lowres="/images/realisations/livre_lowres.jpg"
 					title="Librairie Pourquoi pas un livre - Molsheim - Wiwowas">
-					<img src="/images/realisations/livre_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/livre_thumb.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/esther.jpg" itemprop="contentUrl" data-size="1241x1754"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/esther.jpg" property="contentUrl" data-size="1241x1754"
 					lowres="/images/realisations/esther_lowres.jpg"
 					title="Miss Esther - portrait d’entrepreneur - Cit’in">
-					<img src="/images/realisations/esther_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/esther_thumb.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/musees.jpg" itemprop="contentUrl" data-size="1749x981"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/musees.jpg" property="contentUrl" data-size="1749x981"
 					lowres="/images/realisations/musees_lowres.jpg"
 					title="La nuit des musées - Sélestat - Journal L’Alsace">
-					<img src="/images/realisations/musees_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/musees_thumb.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/tanzmatten.jpg" itemprop="contentUrl" data-size="1889x2775"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/tanzmatten.jpg" property="contentUrl" data-size="1889x2775"
 					lowres="/images/realisations/tanzmatten_lowres.jpg"
 					title="Saison culturelle Les Tanzmatten - Sélestat - Journal L’Alsace">
-					<img src="/images/realisations/tanzmatten_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/tanzmatten_thumb.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 		</div>
 		<h3 class="grid-100">Web</h3>
-		<div id="gallery-web" class="my-gallery grid-100 grid-parent" itemscope itemtype="http://schema.org/ImageGallery">
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/assoiffes.jpg" itemprop="contentUrl" data-size="3266x1837"
+		<div id="gallery-web" class="my-gallery grid-100 grid-parent" property="workExample" typeof="ImageGallery">
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/assoiffes.jpg" property="contentUrl" data-size="3266x1837"
 					lowres="/images/realisations/assoiffes_lowres.jpg"
 					title="Les Assoiffés - Mittelbergheim - rédaction de contenus - Crédit photo Nono-photo">
-					<img src="/images/realisations/assoiffes_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/assoiffes_thumb.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/m33.jpg" itemprop="contentUrl" data-size="900x600"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/m33.jpg" property="contentUrl" data-size="900x600"
 					lowres="/images/realisations/m33_lowres.jpg"
 					title="Atelier M33 - Strasbourg - rédaction de contenus">
-					<img src="/images/realisations/m33_lowres.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/m33_lowres.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/dominicains.jpg" itemprop="contentUrl" data-size="1200x692"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/dominicains.jpg" property="contentUrl" data-size="1200x692"
 					lowres="/images/realisations/dominicains_lowres.jpg"
 					title="Les Dominicains de Haute-Alsace - Guebwiller - rédaction, relecture et rewriting - Crédit photo Bartosch Salmanski">
-					<img src="/images/realisations/dominicains_thumb.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/dominicains_thumb.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 
-			<figure class="grid-25 mobile-grid-50" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="/images/realisations/voile.jpg" itemprop="contentUrl" data-size="2000x1333"
+			<figure class="grid-25 mobile-grid-50" property="associatedMedia" typeof="ImageObject">
+				<a href="/images/realisations/voile.jpg" property="contentUrl" data-size="2000x1333"
 					lowres="/images/realisations/voile_lowres.jpg"
 					title="Club de voile de Mulhouse - rédaction de contenus">
-					<img src="/images/realisations/voile_lowres.jpg" itemprop="thumbnail"/>
+					<img src="/images/realisations/voile_lowres.jpg" property="thumbnail" typeof="ImageObject"/>
 				</a>
 			</figure>
 		</div>
@@ -446,15 +443,28 @@ while(x=eval(x));
 	<div class="grid-container">
     	<h2 class="grid-100">Mentions légales</h2>
 
-		<div class="grid-50 mobile-grid-100">
+		<div class="grid-50 mobile-grid-100" property="publisher" typeof="Organization">
+			<div property="logo" typeof="ImageObject">
+				<meta property="url" content="http://www.anne-schurrer.com/images/icon-250.png" />
+				<meta property="width" content=250 />
+				<meta property="height" content=250 />
+			</div>
 			<p>Conformément aux dispositions des articles 6-III de la loi n°2004-575 du 21 juin 2004 pour la Confiance dans l'Economie Numérique, Anne Schurrer vous informe des mentions légales suivantes :
 
 			<h3>Entreprise</h3>
-			<p>Anne Schurrer - Rédactrice est un concept créé et produit par Anne Schurrer, en contrat CAPE dans la coopérative d'activité et d'emploi Artenréel jusqu'au 21 juillet 2018.</p>
+			<p><span property="name">Anne Schurrer - Rédactrice</span> est un concept créé et produit par Anne Schurrer, en contrat CAPE dans la coopérative d'activité et d'emploi Artenréel jusqu'au 21 juillet 2018.</p>
 			<p>
-				N°SIRET : 478 407 968 000 39 <br/>
-				Siège social : 13 rue Martin Bucer 67000 Strasbourg<br/>
-				Responsable de la publication : Anne Schurrer<br/>
+				N°SIRET : 478 407 968 000 39 <br/>				
+				<span property="address" typeof="PostalAddress">
+					Siège social : 
+					<span property="streetAddress">13, rue Martin Bucer</span>
+					<span property="postalCode">67000</span>
+					<span property="addressLocality">Strasbourg, France</span>
+				</span><br/>
+				<span property="founder" typeof="Person">
+					Responsable de la publication : 
+					<span property="name">Anne Schurrer</span>
+					<br/>
 				Courriel : 
 <!-- <a href="mailto:contact@anne-schurrer.com" target="_top">contact@anne-schurrer.com</a> -> http://hivelogic.com/enkoder/ -->
 
@@ -481,9 +491,16 @@ while(x=eval(x));
 
 			</p>
 		</div>
-		<div class="grid-50 mobile-grid-100">
+		<div class="grid-50 mobile-grid-100" property="provider" typeof="Organization">
 			<h3>Hébergeur</h3>
-			<p>GANDI SAS<br/>63-65 boulevard Massena à Paris (75013) FRANCE</p>
+			<p>
+				<span property="name">GANDI SAS</span><br/>
+				<span property="address" typeof="PostalAddress">
+					<span property="streetAddress">63-65 boulevard Massena</span>
+					<span property="postalCode">75013</span>
+					<span property="addressLocality">Paris, France</span>
+				</span>
+			</p>
 			<h3>Webmaster</h3>
 			<p>
 				MorF - <script type="text/javascript">//<![CDATA[< !--
