@@ -49,7 +49,7 @@ a {
 }
 
 a:hover {
-	color: #db3244;
+	color: #f40c03;
 }
 
 nav ul {
@@ -116,7 +116,8 @@ nav li {
 }
 
 .apropos-part {
-    padding-bottom: 2em;
+    padding-bottom: 1.2em;
+    margin: 0;
 }
 
 h3 {
@@ -125,7 +126,7 @@ h3 {
 
 #prestations .inline_title {
     text-transform: uppercase;
-    color: #db3244;
+    color: #f40c03;
 }
 
 .keywords {
@@ -133,6 +134,8 @@ h3 {
 }
 .keywords img {
     max-height: 12em;
+    max-width: 90%;
+    padding: calc( 11em - 14vw ) 0;
 }
 
 .my-gallery  {
@@ -210,13 +213,8 @@ h3 {
 	}		
 	
 	.keywords img {
-		max-width: 100%;
 		position: relative;
-		margin: calc( 9em - 14vw ) 0;
-	}
-		
-	.apropos-part {
-		padding-bottom: 1.2em;
+		/* margin: calc( 9em - 14vw ) 0; */
 	}
 }
 
