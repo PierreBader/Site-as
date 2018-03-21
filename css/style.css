@@ -4,6 +4,12 @@ body {
 	text-align: justify;
 }
 
+/* preload images */
+body:after { 
+	display:none;
+ 	content: url(/images/link-hover.svg);
+}
+
 h2 {
 	text-transform:uppercase;
 	font-weight:800;
